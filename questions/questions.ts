@@ -22,3 +22,6 @@ questions.forEach((question) => {
 
   questionsContainer.appendChild(questionElement)
 })
+
+// window.history.pushState('', '', `/questions/5/${titleStringer}`)
+// console.log(currUser = users.filter((user) => currQuestion.tagIds.includes(tag.id)))
